@@ -1,5 +1,87 @@
 @import "estilos.css";
+*{
+    box-sizing: border-box;
+} 
 
-h1{
+/* Layout*/
+.row::after{
+    content: "";
+    clear:both;
+    display: table;
+} 
+
+.grid-container{
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 2px 2fr 2px 1fr;
+    grid-template-rows: auto;
+    grid-template-areas: 
+    'header header header header header'
+    'nav . main . aside '
+    ' article article article article article '
+    'footer footer footer footer footer';
+    grid-gap:1vw;
+    padding: 20px;
     text-align: center;
 }
+
+.item1 {
+    grid-area : header;
+    background-color: blue;
+    text-align: center;
+    font-size: 35px;
+}
+
+.item2{
+    grid-area : nav;
+    background-color: brown;
+    text-align: center;
+    font-size: 20px;
+}
+
+.item2 a {
+    display: block;
+    padding: 1em;
+    background-color: cornsilk;
+    text-align: center;
+    margin-bottom: 0.2em;
+    text-decoration: none;
+    color: #050000;
+    width: 200px;
+    height: 40px;
+}
+
+.item3{
+    grid-area : main;
+    background-color: rgb(236, 5, 5);
+    text-align: center;
+    font-size: 35px;
+}
+
+.item4{
+    grid-area : article;
+    background-color: orange;
+    text-align: center;
+    font-size: 20px;
+}
+
+.item5{
+    grid-area : aside;
+    display: block;
+    padding: 10px 0 ;
+    text-align: center;
+    font-size: 20px;
+}
+
+.item6{
+    grid-area : footer;
+    color: #ffffff;
+    text-align: center;
+    font-size: 12px;
+    padding: 15px;
+    font-size: 1vw;
+}
+
+
+
+

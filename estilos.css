@@ -29,9 +29,10 @@
 
 .item1 {
     grid-area : header;
-    background-color: blue;
+    color: rgb(245, 238, 220);
     text-align: center;
     font-size: 35px;
+    font-family: 'EB Garamond', serif;;
 }
 
 .item2{
@@ -80,14 +81,16 @@
     font-size: 1vw;
 }
 
-.itemCapa{
-    box-shadow: 0 1px 2px rgba(0,0,0,0.24), 0 6px 2px rgba(0,0,0,0.24);
-    width: 100%;
-    height: 100%;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-size: cover;
+/*Imagem de capa*/
+.container{
+    position: relative;
 }
+
+img{
+    width: 100%;
+    height: auto; 
+}
+
 
 /* Posição de imagens / texto */
 #imagem{

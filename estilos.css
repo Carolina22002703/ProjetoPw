@@ -1,6 +1,7 @@
 @import "estilos.css";
 *{
     box-sizing: border-box;
+    background-color: white;
 } 
 
 /* Layout*/
@@ -35,7 +36,6 @@
 
 .item2{
     grid-area : nav;
-    background-color: brown;
     text-align: center;
     font-size: 20px;
 }
@@ -43,7 +43,6 @@
 .item2 a {
     display: block;
     padding: 1em;
-    background-color: cornsilk;
     text-align: center;
     margin-bottom: 0.2em;
     text-decoration: none;
@@ -54,16 +53,14 @@
 
 .item3{
     grid-area : main;
-    background-color: rgb(236, 5, 5);
     text-align: center;
     font-size: 10pt;
 }
 
 .item4{
     grid-area : article;
-    background-color: orange;
     text-align: center;
-    font-size: 20px;
+    font-size: 10pt;
 }
 
 .item5{
@@ -92,5 +89,14 @@
     background-size: cover;
 }
 
+/* Posição de imagens / texto */
+img.absolute{
+    position:absolute;
+    width: 420px ;
+    height: 196px ;
+    top: 750px;
+    right: 520px;
+    max-width: 100%;
+}
 
 

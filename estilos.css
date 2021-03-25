@@ -1,8 +1,12 @@
 @import "estilos.css";
 *{
     box-sizing: border-box;
-    background-color: white;
-} 
+}
+
+div h4{
+    background-color:rgb(160, 139, 139); ;
+}
+
 
 /* Layout*/
 .row::after{
@@ -32,13 +36,12 @@
     color: rgb(245, 238, 220);
     text-align: center;
     font-size: 35px;
-    font-family: 'EB Garamond', serif;;
+    font-family: 'EB Garamond', serif;
 }
 
 .item2{
     grid-area : nav;
-    text-align: center;
-    font-size: 20px;
+    font-size: 20px;  
 }
 
 .item2 a {
@@ -47,15 +50,23 @@
     text-align: center;
     margin-bottom: 0.2em;
     text-decoration: none;
-    color: #050000;
+    background-color:whitesmoke;
+    color: rgb(160, 139, 139);
     width: 200px;
     height: 40px;
 }
 
 .item3{
     grid-area : main;
-    text-align: center;
+    text-align:justify;
     font-size: 13pt;
+    padding: 10px; 
+    background-color: whitesmoke;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    width: 950px;
+    min-height: 100%;   
 }
 
 .item4{
@@ -68,13 +79,14 @@
     grid-area : aside;
     display: block;
     padding: 10px 0 ;
-    text-align: center;
+    text-align: justify;
     font-size: 13pt;
+    
 }
 
 .item6{
     grid-area : footer;
-    background-color: rgb(9, 5, 236);
+    background-color:rgb(160, 139, 139);
     text-align: center;
     font-size: 12px;
     padding: 15px;
@@ -86,9 +98,11 @@
     position: relative;
 }
 
+
 img{
     width: 100%;
     height: auto; 
+    border-radius: 3px;
 }
 
 
@@ -99,6 +113,7 @@ img{
     min-width: 600px;
     
 }
+
 #imagem.absolute{
     position:absolute;
     bottom: 100px;
@@ -127,10 +142,10 @@ img{
 
         .col-1 {width: 8.33%;}
         .col-2 {width: 16.66%;}
-        .col-3 {width: 25%;}
+        .col-3 {width: 15%;}
         .col-4 {width: 33.33%;}
         .col-5 {width: 41.66%;}
-        .col-6 {width: 50%;}
+        .col-6 {width: 25%;}
         .col-7 {width: 58.33%;}
         .col-8 {width: 66.66%;}
         .col-9 {width: 75%;}

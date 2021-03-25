@@ -1,0 +1,14 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "pwa-chrome",
+            "request": "launch",
+            "name": "Open mirazur.html",
+            "file": "c:\\Users\\35191\\OneDrive\\Ambiente de Trabalho\\Faculdade\\Segundo Ano\\Segundo semestre\\Programação Web\\Aulas Práticas\\ProjetoPw\\mirazur.html"
+        }
+    ]
+}

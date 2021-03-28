@@ -7,7 +7,10 @@ div h4{
     background-color:rgb(160, 139, 139); ;
 }
 
-
+/*Permite não mostrar*/
+.none{
+    display: none;
+}
 /* Layout*/
 .row::after{
     content: "";
@@ -42,9 +45,12 @@ div h4{
 
 .item2{
     grid-area : nav;
-    font-size: 20pt; 
+    font-size: 18pt;
+    top: 0; 
     background-color: rgb(31, 95, 138); 
-    text-align: center;
+    text-align: center; 
+    transition: all 0.5s linear;
+    position: relative;
 }
 
 .item2__logo {

@@ -21,9 +21,10 @@ div h4{
     grid-template-columns: 1fr 2px 2fr 2px 1fr;
     grid-template-rows: auto;
     grid-template-areas: 
+    ' . nav nav nav . '
     'header header header header header'
     'itemCapa itemCapa itemCapa itemCapa itemCapa'
-    'nav . main . aside '
+    '. main main . aside'
     'article article article article article '
     'footer footer footer footer footer';
     grid-gap:1vw;
@@ -33,7 +34,8 @@ div h4{
 
 .item1 {
     grid-area : header;
-    color: rgb(245, 238, 220);
+    color :rgb(31, 95, 138);
+    font-style: italic;
     text-align: center;
     font-size: 35px;
     font-family: 'EB Garamond', serif;
@@ -41,19 +43,26 @@ div h4{
 
 .item2{
     grid-area : nav;
-    font-size: 20px;  
+    font-size: 20pt; 
+    background-color: rgb(31, 95, 138); 
+    text-align: center;
 }
 
+.item2__logo {
+    max-width: 30px;
+    height: auto;
+    position: relative;
+    top: 0.5em;
+    left: 0.5em;
+  }
+
 .item2 a {
-    display: block;
-    padding: 1em;
+    display: inline;
     text-align: center;
-    margin-bottom: 0.2em;
+    margin: 0.7vw;
+    background-color: rgb(31, 95, 138);
     text-decoration: none;
-    background-color:whitesmoke;
     color: rgb(160, 139, 139);
-    width: 200px;
-    height: 40px;
 }
 
 .item3{
@@ -67,37 +76,46 @@ div h4{
     position: relative;
     width: 950px;
     min-height: 100%;   
+    box-shadow: 0 1px 2px rgba(0,0,0,0.24), 0 6px 2px rgba(0,0,0,0.24);
 }
 
 .item4{
     grid-area : article;
     text-align: center;
     font-size: 13pt;
+    background-color: white;
 }
 
 .item5{
     grid-area : aside;
     display: block;
-    padding: 10px 0 ;
+    padding: 0.4vw 0.7vw;
     text-align: justify;
     font-size: 13pt;
-    
+    margin-bottom: 10px;
+    margin: 0.7vw;
+    text-decoration: none;
 }
 
 .item6{
     grid-area : footer;
-    background-color:rgb(160, 139, 139);
+    background-color:rgb(31, 95, 138);
+    color : white;
     text-align: center;
     font-size: 12px;
     padding: 15px;
     font-size: 1vw;
 }
+/*Logotipo*/
+.image{
+    border-radius: 3px;
+}
+
 
 /*Imagem de capa*/
 .container{
     position: relative;
 }
-
 
 img{
     width: 100%;

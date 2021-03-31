@@ -128,7 +128,6 @@ div h4{
     display: flex;
     max-width: 3000px;
     max-height: 1000px;
-    margin: 0 auto;
     padding: 0 0.8em;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
@@ -263,7 +262,33 @@ div h4{
     line-height: 2.3;
 }
 
-
+/*Criação de colunas*/
+.column {
+    float: left;
+    width: 25%;
+    padding: 20px;
+  }
+  
+  /* Clear floats after the columns */
+  .row1:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* On screens that are 992px wide or less, go from four columns to two columns */
+  @media screen and (max-width: 1000px) {
+    .column {
+      width: 50%;
+    }
+  }
+  
+  /* On screens that are 600px wide or less, make the columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+    }
+  }
 /*Logotipo*/
 .image{
     border-radius: 3px;
@@ -306,7 +331,7 @@ img{
         
 
     /*for desktop*/
-    @media only screen and(min-width: 768px) {
+    @media only screen and(max-width: 1000px) {
     body{
             background-color: aliceblue;
             color : black;

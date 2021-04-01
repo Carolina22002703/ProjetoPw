@@ -5,7 +5,27 @@
     <title>Gastronomia no mundo</title>
     <link rel="shortcut icon" type="image/x-icon" href="imagens/mundo.png"/>
     <link rel="stylesheet" href="estilos.css">
+
+    <!--Icon fazer reseva-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!--Icon pesquisar mais sobre o restaurante-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!--Localização do Restaurante-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!--Comentarios-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">   
     
+    <!--Botão para reservar-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
     <style>
      
         .fixed{
@@ -22,11 +42,32 @@
         h3{
             color:rgb(160, 139, 139);
         }
+        p{
+            text-align: center;
+        }
         header{
             background-image: url(images/celler_capa.jpg);
             size: 100%;
             height: 800px;
             background-size: cover;
+        }
+        .item1{
+            color :rgb(199, 142, 57);
+        }
+        .item2{
+            background-color: rgb(199, 142, 57); 
+        }
+        .item2 a{
+            background-color: rgb(199, 142, 57);
+        }
+        .item6{
+            background-color: rgb(199,142,57);
+        }
+        
+        .linha{
+            display: flex;
+            flex-direction: row;
+            justify-content:center;
         }
 
     </style>
@@ -54,37 +95,40 @@
     
     <div class="itemAuxiliar">
       <div class="row1">
-        <div class="column" style="background-color: green;">
-        <p> ola</p>
-        <p> ola</p>
-        <p> ola</p>
-        <p> ola</p>
-        <p> ola</p>
-        <p> ola</p>
-        <p> ola</p>
+        <div class="column" style="background-color: rgb(190, 167, 131);">
+        <br>
+        <center><i class="fa fa-user" style="font-size:65px;color: rgb(238, 238, 238);"></i></center>
+        <br>
+        <h2>Comentários Sobre O Restaurante</h2>
+        <p>Alguns comentários de um dos melhores restaurantes do mundo</p>
+        <center><a href="#article">Clique aqui</a></center>
         </div>
-        <div class="column" style="background-color: yellow;">
-        <p> ola</p>
-        <p> ola</p>
-        <p> ola</p>
-        <p> ola</p>
-        <p> ola</p>
+
+        <div class="column" style="background-color: rgb(160, 147, 113);">
+        <br>
+        <center><i class="fa fa-phone" style="font-size:65px;color:rgb(238, 238, 238)"></i></center>
+        <br>
+        <h2>Se Prenteder Reservar</h2>
+        <p>Seja rápido e reserve aqui</p>
+        <center><a href="#aside">Clique aqui</a></center>
         </div>
-        <div class="column" style="background-color: blue;">
-        <p> ola</p>
-        <p> ola</p>
-        <p> ola</p>
-        <p> ola</p>
-        <p> ola</p>
+
+        <div class="column" style="background-color: rgba(196, 184, 116, 0.884);">
+        <br>
+        <center><i class="fa fa-map-pin" style="font-size:65px;color:rgb(238, 238, 238)"></i></center>
+        <br>
+        <h2>Descobra Onde Se Localiza</h2>
+        <p>Faça a ligação rapidamente</p>
+        <center><a href="https://www.google.com/maps/place/El+Celler+De+Can+Roca/@41.9933774,2.805826,17z/data=!3m1!4b1!4m5!3m4!1s0x12bae711df335e93:0x27068e002439c4fa!8m2!3d41.9933774!4d2.8080147">Clique aqui</a></center>
         </div>
-        <div class="column" style="background-color: red;">
-        <p> ola</p>
-        <p> ola</p>
-        <p> ola</p>
-        <p> ola</p>
-        <p> ola</p>
-        <p> ola</p>
-        <p> ola</p>
+
+        <div class="column" style="background-color: rgba(216, 203, 128, 0.87);">
+        <br>
+        <center><i style="font-size:65px;color: rgb(238, 238, 238);" class="fa">&#xf002;</i></center>
+        <br>
+        <h2>Descobre mais acerca do Restaurante</h2>
+        <p>Falta ligação</p>
+        
         </div>
       </div>
     </div>
@@ -92,23 +136,98 @@
     <div class="row">
     <div class="grid-container">
         <!--Conteúdo Principal-->
+        <div class="col-3 col-s-6 item7">
+            
+            <section>
+                <div class="reserva">
+                    <div class="reserva_header">
+                      <img src="images/celer_noticia1.png">
+                    </div>
+                </div>
+
+                <div class="reserva">
+                    <div class="reserva_header">
+                      <img src="images/celer_noticia2.png">
+                    </div>
+                </div>
+                
+                <div class="reserva">
+                    <div class="reserva_header">
+                      <img src="images/celer_noticia3.png">
+                    </div>
+                </div>
+
+                <div class="reserva">
+                    <div class="reserva_header">
+                      <img src="images/celer_noticia4.png">
+                    </div>
+                </div>
+
+                <div class="reserva">
+                    <div class="reserva_header">
+                      <img src="images/celer_noticia5.png">
+                    </div>
+                </div>
+
+                <div class="reserva">
+                    <div class="reserva_header">
+                      <img src="images/celer_noticia6.png">
+                    </div>
+                </div>
+            </section>
+
+        </div>
+
         <div class="col-6 col-s-9 item3">
              <main>
-
+               
+                
+                <p>O restaurante conta com 3 Michelin (o primeiro obtido em 1995; o segundo em 2002 e o terceiro em 2009) possui 3 estrelas Michelin.</p>
+               
+                <p><b><i>“Um restaurante tem que ser feito a tempo, é um projeto de longo prazo. Um modo de vida, um modo. Tem que ser capaz de ser feliz neste caminho fazendo os outros felizes, metas acontecem muito rapidamente. O dia a dia no restaurante é o que resta.</i></b></p>
+                <p>Joan Roca</p>
 
              </main>
 
         </div>
         <!--Article-->
         <div class="col-6 col-s-9 item4">
-            <article>
+            <article id="article">
+                <h2>Comentários</h2>
+                <div class="linha">
+                    <figure><img src="images/celer_avaliacao1.png"></figure>
+                    <a href="https://www.google.pt/maps/place/El+Celler+de+Can+Roca/@41.9934068,2.8060718,17z/data=!3m1!4b1!4m5!3m4!1s0x12bae711df335e93:0x27068e002439c4fa!8m2!3d41.9934068!4d2.8082605?hl=pt-PT"><figcaption class="none">Avaliação</figcaption></a>
+
+                    <figure><img src="images/celer_avaliacao2.png"></figure>
+                    <a href="https://www.google.pt/maps/place/El+Celler+de+Can+Roca/@41.9934068,2.8060718,17z/data=!3m1!4b1!4m5!3m4!1s0x12bae711df335e93:0x27068e002439c4fa!8m2!3d41.9934068!4d2.8082605?hl=pt-PT"><figcaption class="none">Avaliação</figcaption></a>
+                
+                    <figure><img src="images/celer_avaliacao3.png"></figure>
+                    <a href="https://www.google.pt/maps/place/El+Celler+de+Can+Roca/@41.9934068,2.8060718,17z/data=!3m1!4b1!4m5!3m4!1s0x12bae711df335e93:0x27068e002439c4fa!8m2!3d41.9934068!4d2.8082605?hl=pt-PT"><figcaption class="none">Avaliação</figcaption></a>
+
+                </div>
                 
             </article>
         </div>
+
         <!--Aside-->
         <div class="col-9 col-s-12 item5">
-                <aside>
-                   
+                <aside id="aside">
+                    <div class="reserva">
+                        <div class="reserva_header">
+                          <img src="images/celer_foto.jpg">
+                        </div>
+                        <div class="reserva_middle">
+                           <h2 class="reserva_middle_name"> Reserva </h2>
+                        </div>  
+                        <p class="reserva_texto"> O sistema de reservas online permite verificar a disponibilidade e efetuar a reserva. </p>
+                        <p class="reserva_texto"> Se já estiver lotado na data pretendida, o seu pedido é incluido na lista de espera correspondente.</p>
+                        <p class="reserva_texto"> As reservas são aceites com no máximo 11 meses de antecedência e as solicitações que excedem esse limite não são processadas.</p>
+                        <p class="reserva_texto"><b>Telemóvel: +34 972 222 157</b></p>
+                        <p class="reserva_texto"><b>Localização:</b> <a href="https://www.google.com/maps/place/El+Celler+De+Can+Roca/@41.9933774,2.805826,17z/data=!3m1!4b1!4m5!3m4!1s0x12bae711df335e93:0x27068e002439c4fa!8m2!3d41.9933774!4d2.8080147">Google Maps</a></p>
+                        <br>
+                        <center><a href="https://cellercanroca.com/reservas/informacio-sobre-la-reserva/formulari-reserves-ca.html"><button style="font-size:24px;color: sandybrown;">Button <i class="fa fa-calendar-check-o"></i></button></a></center>
+                        <br>
+                    </div>
                 </aside>  
         </div>
 

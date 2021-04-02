@@ -8,7 +8,7 @@
     
     <style>
      
-        .fixed{
+     .fixed{
             height: 30px;
             width: 100px;
             position: absolute;
@@ -22,11 +22,35 @@
         h3{
             color:rgb(160, 139, 139);
         }
+        
         header{
-            background-image: url(images/maido_capa.jpg);
+            background-image: url(images/Celler/celler_capa.jpg);
             size: 100%;
             height: 800px;
             background-size: cover;
+        }
+        .item1{
+            color :rgb(199, 142, 57);
+        }
+        .item2{
+            background-color: rgb(199, 142, 57); 
+        }
+        .item2 a{
+            background-color: rgb(199, 142, 57);
+        }
+        .item6{
+            background-color: rgb(199,142,57);
+        }
+        
+        .linha{
+            display: flex;
+            flex-direction: row;
+            justify-content:center;
+        }
+        .linha2{
+            display: flex;
+            flex-direction: row;
+            justify-content:space-between;
         }
 
     </style>
@@ -59,10 +83,40 @@
     <div class="row">
     <div class="grid-container">
         <!--Conteúdo Principal-->
+        <div class="col-3 col-s-6 item7"> 
+            <section>
+               
+                <h2> O legendário Restaurante de Girona</h2>
+                <center><iframe width="350" height="190" src="https://www.youtube.com/embed/L-tOtP-ISxQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
+                <center><details>
+                    <summary>Saber mais</summary>
+                    <p>Entre no lendário restaurante El Celler de Can Roca em Espanha.</p>
+                </details></center>
+                <br><br>
+
+                <h2> O Chef</h2>
+                <center><iframe width="350" height="190" src="https://www.youtube.com/embed/61tPg-Fd-ac" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
+                <center><details>
+                    <summary>Saber mais</summary>
+                    <p>O espanhol Jordi Roca foi eleito o melhor chef pasteleiro do mundo pela revista Restaurante. Desde 2002, a revista britânica elege anulamente os 50 melhores restaurantes do mundo. Mais de 800 chefs, gourmets e críticos gastronômicos fazem parte do grupo de especialistas.</p>
+                </details></center>
+                <br><br>             
+
+            </section>
+
+        </div>
+
         <div class="col-6 col-s-9 item3">
              <main>
+                <h2>Chef Joan Roca</h2>
+                <center><p><b><i>“Nosso sonho era construir um lugar em que fôssemos felizes fazendo o que gostamos”</i></b></p></center>
+                <p>Combinações simples de sabores são combinadas com técnicas de gastronomia molecular e apresentações incomuns de alimentos.</p>
+                <p>O Guia Michelin descreve o tipo de cozinha produzida por El Celler de Can Roca simplesmente como "criativa", enquanto Edward Owen do The Times disse que era uma "fusão de pratos tradicionais com toques surrealistas ". As técnicas incluem o congelamento de lulas com nitrogênio líquidoe então misturado para ser canalizado e cozido em um cracker.</p>
+             
+               
 
-             </main>
+                <center><p><b>A cozinha de Joan é inspirada nos perfumes.</b></p></center>
+            </main>
 
         </div>
         <!--Article-->
@@ -73,9 +127,18 @@
         </div>
         <!--Aside-->
         <div class="col-9 col-s-12 item5">
-                <aside>
-                   
-                </aside>  
+            <aside>
+                 
+                <figure><img src="images/Celler/celer_prato1.jpg" height="200px" class="circular"></figure>
+                <a href="https://www.google.pt/url?sa=i&url=https%3A%2F%2Fwww.royist.com%2Fculinary%2Fdiscover-el-celler-de-can-roca-girona-spain%2F&psig=AOvVaw1wXxB5bR89Sutkgqunv-Va&ust=1617470869171000&source=images&cd=vfe&ved=0CAMQjB1qFwoTCKjp5dqK4O8CFQAAAAAdAAAAABAK"><figcaption class="none">Prato 1</figcaption></a>
+                
+                <figure><img src="images/Celler/celer_prato2.jpg" height="200px" class="circular"></figure>
+                <a href="https://www.google.pt/url?sa=i&url=https%3A%2F%2Fbr.pinterest.com%2Fpin%2F397935317053289904%2F%3Famp_client_id%3DCLIENT_ID(_)%26mweb_unauth_id%3D%7B%7Bdefault.session%7D%7D%26from_amp_pin_page%3Dtrue&psig=AOvVaw1wXxB5bR89Sutkgqunv-Va&ust=1617470869171000&source=images&cd=vfe&ved=0CAMQjB1qFwoTCKjp5dqK4O8CFQAAAAAdAAAAABAQ"><figcaption class="none">Prato 2</figcaption></a>
+               
+                <figure><img src="images/Celler/celer_prato3.jpg" height="200px" class="circular"></figure>
+                <a href="https://www.google.pt/url?sa=i&url=https%3A%2F%2Fmorewithlessdesign.com%2Fen%2Fel-celler-de-can-roca%2F&psig=AOvVaw1wXxB5bR89Sutkgqunv-Va&ust=1617470869171000&source=images&cd=vfe&ved=0CAMQjB1qFwoTCKjp5dqK4O8CFQAAAAAdAAAAABAq"><figcaption class="none">Prato 3</figcaption></a>
+
+            </aside>  
         </div>
 
     </div>

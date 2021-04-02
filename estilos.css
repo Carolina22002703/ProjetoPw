@@ -18,10 +18,18 @@ div h4{
     display: table;
 } 
 
+/* Imagens Circulares */
+.circular{
+    border-radius: 120px;
+}
+.half_circulo{
+    border-radius: 50px;
+}
+
 .grid-container{
     margin: auto;
     display: grid;
-    grid-template-columns: 1.2fr 2px 2fr 2px 1fr;
+    grid-template-columns: 1fr 2px 2fr 2px 1fr;
     grid-template-rows: auto;
     grid-template-areas: 
     ' . nav nav nav . '
@@ -213,7 +221,7 @@ div h4{
 }
 .reserva{
     display: inline-block;
-    width: 400px;
+    width: 300px;
     margin: 1em;
     height: auto;
     background-color: #fff;
@@ -374,7 +382,7 @@ div h4{
 
 /*Imagens */
 
-img{
+.img{
     width: 100%;
     height: auto; 
     border-radius: 3px;

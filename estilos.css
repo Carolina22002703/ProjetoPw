@@ -447,7 +447,7 @@ div h4{
     grid-gap: 1rem;
     grid-auto-flow: dense;
 }
-.gallery-wrapper {
+.gallery-wrapper1 {
     padding: 2rem 10rem;
     display: grid;
     justify-content: center;

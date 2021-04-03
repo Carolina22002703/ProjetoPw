@@ -80,7 +80,7 @@ div h4{
 .item3{
     grid-area : main;
     text-align:justify;
-    font-size: 13pt;
+    font-size: 1vw;
     padding: 2px; 
     background-color: whitesmoke;
     margin-left: auto;
@@ -94,7 +94,7 @@ div h4{
 .item4{
     grid-area : article;
     text-align: center;
-    font-size: 13pt;
+    font-size: 1vw;
     background-color: white;
 }
 
@@ -102,8 +102,7 @@ div h4{
     grid-area : aside;
     display: block;
     padding: 0.4vw 0.7vw;
-    
-    font-size: 13pt;
+    font-size: 1vw;
     margin-bottom: 10px;
     margin: 0.7vw;
     text-decoration: none;
@@ -111,7 +110,7 @@ div h4{
 
 .item7{
     grid-area : section;
-    font-size: 11pt; 
+    font-size: 1vw;
     background-color: white;
     border : 10px solid transparent;
     display: block;
@@ -135,7 +134,6 @@ div h4{
     display: flex;
     max-width: 3000px;
     max-height: 1000px;
-    padding: 0 0.8em;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
@@ -145,7 +143,7 @@ div h4{
 }
 .caixa{
     display: inline-block;
-    width: 280px;
+    width: 20%;
     margin: 1em;
     height: auto;
     background-color: #fff;
@@ -178,7 +176,7 @@ div h4{
     margin: 1.2em auto 0.8em;
     max-width: 85%;
     color: #286197;
-    font-size: 1.15em;
+    font-size: 1vw;
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: 300;
 }
@@ -187,21 +185,16 @@ div h4{
     width: 100%;
     height: 80px;
     background-color: #f6f6f9;
-    padding-top: 0.5em;
     text-align: center;
-    box-shadow: 0 -1px 3px rgba(0,0,0,0.3),
-                0 -5px 13px 0px rgba(106,66,87,0.4);
     position: relative;
-    z-index: 2;
 }
 
 .caixa_middle_name{
     margin: 0;
     color: #170e69;
-    font-size: 2em;
+    font-size: 2vw;
     font-family: 'Open Sans', sans-serif;
-    font-weight: 600;
-    line-height: 2.3;
+    line-height: 1.5;
 }
 
 /*Template das caixas de informação de reserva*/
@@ -281,78 +274,27 @@ div h4{
     line-height: 2.3;
 }
 
-/*Template das caixas de informação sobre Pontos de Interesse*/
-.interesse_flex{
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    max-width: 5000px;
-    max-height: 1000px;
-    margin: 0 auto;
-    padding: 0 0.10em;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-    overflow-y: hidden;
-}
-.interesse{
-    display: inline-block;
-    width: 30%;
-    margin: 1em;
-    height: auto;
-    background-color: #fff;
-    box-shadow: 0 0 3px -1px rgba(0,0,0,0.4),
-                0 13px 13px -10px rgba(0,0,0,0.4);
-    border-radius: 3px;
-    overflow-x: hidden;
-}
-
-.interesse_header{
-    width: 100%;
-    height: auto;
-    background-color:rgb(31, 95, 138);
-    background: linear-gradient(to bottom, #7078a9 0%, orange 100%);
-    position: relative;
-}
-.interesse_texto{
-    margin: 1.2em auto 0.8em;
-    max-width: 85%;
-    color: #286197;
-    font-size: 1.15em;
-    font-family: 'Source Sans Pro', sans-serif;
-    font-weight: 300;
-}
-
-.interesse_middle{
-    width: 100%;
-    height: 80px;
-    background-color: #f6f6f9;
-    padding-top: 0.5em;
-    text-align: center;
-    box-shadow: 0 -1px 3px rgba(0,0,0,0.3),
-                0 -5px 13px 0px rgba(106,66,87,0.4);
-    position: relative;
-    z-index: 2;
-}
-
-.interesse_middle_name{
-    margin: 0;
-    color: #170e69;
-    font-size: 1.1em;
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 600;
-    line-height: 2.3;
-}
-
 /*Criação de colunas*/
 .column {
     float: left;
     width: 25%;
     padding: 20px;
-  }
-  
+    font-size: 1vw;
+}
+
+.column1 {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    padding: 20px;
+    font-size: 1vw;
+}
+.column2{
+    width: 100%;
+    font-size: 1vw;
+}
+
 /* Clear floats after the columns */
 .row1:after {
     content: "";
@@ -363,14 +305,14 @@ div h4{
 /* On screens that are 992px wide or less, go from four columns to two columns */
 @media screen and (max-width: 1000px) {
   .column {
-    width: 50%;
+        width: 50%;
     }
 }
   
 /* On screens that are 600px wide or less, make the columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 600px) {
     .column {
-    width: 100%;
+        width: 100%;
     }
 }
 
@@ -435,7 +377,35 @@ div h4{
         .col-10 {width: 83.33%;}
         .col-11 {width: 91.66%;}
         .col-12 {width: 100%;}
-    }
+}
+
+
+/* Galeria de imagens mirazur1 */
+.middle {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: rgba(0, 0, 0, 0.445);
+    
+}
+.text {
+    color: white;
+    top : 10%;
+    font-size: 0,5vw;
+    position: absolute;
+    text-align: center;
+}
+.image:hover img {
+    opacity: 0.5;
+} 
+.image:hover .middle {
+    opacity: 1;
+} 
+
 
 /* Galeria de imagens */
 .gallery-wrapper {
@@ -447,16 +417,6 @@ div h4{
     grid-gap: 1rem;
     grid-auto-flow: dense;
 }
-.gallery-wrapper1 {
-    padding: 2rem 10rem;
-    display: grid;
-    justify-content: center;
-    grid-template-columns: repeat(3, 600px);
-    grid-auto-rows: 400px;
-    grid-gap: 3rem;
-    grid-auto-flow: dense;
-}
-
 .gallery-container:nth-child(7) {
     grid-column: span 3;
     grid-row-end: span 2;
@@ -482,8 +442,7 @@ div h4{
     object-position: 50% 50%;
     cursor: pointer;
 }
-
-.gallery-wrapper .middle {
+.middlemiddle {
     position: absolute;
     cursor: pointer;
     top: 0;
@@ -496,9 +455,8 @@ div h4{
     padding: 5px;
 }
 
-.gallery-wrapper .text {
+.texto {
     color: white;
-    font-size: 1rem;
     position: absolute;
     top: 20%;
     left: 25%;
@@ -507,12 +465,7 @@ div h4{
     transform: translate(-50%, -50%);
     text-align: center;
     background-color:rgb(199,142,57);
+    z-index: 2;
 }
 
-.gallery-wrapper .image:hover img {
-opacity: 0.5;
-} 
-  
-.gallery-wrapper .image:hover .middle {
-opacity: 1;
-} 
+

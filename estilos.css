@@ -24,13 +24,6 @@ div h4{
     display: table;
 } 
 
-/* Imagens Circulares */
-.circular{
-    border-radius: 120px;
-}
-.half_circulo{
-    border-radius: 50px;
-}
 
 .grid-container{
     margin: auto;

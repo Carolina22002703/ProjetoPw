@@ -11,8 +11,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <style>
-     
-        .fixed{
+     .fixed{
             height: 30px;
             width: 100px;
             position: absolute;
@@ -34,16 +33,16 @@
             background-size: cover;
         }
         .item1{
-            color :rgb(199, 142, 57);
+            color:rgb(190, 167, 131)
         }
         .item2{
-            background-color: rgb(199, 142, 57); 
+            background-color: rgb(190, 167, 131)
         }
         .item2 a{
-            background-color: rgb(199, 142, 57);
+            background-color: rgb(190, 167, 131)
         }
         .item6{
-            background-color: rgb(199,142,57);
+            background-color: rgb(190, 167, 131)
         }
         
         .linha{
@@ -56,7 +55,12 @@
             flex-direction: row;
             justify-content:space-between;
         }
-        
+        #circular{
+            border-radius: 120px;
+        }
+        #half_circulo{
+        border-radius: 50px;
+        }
         
     </style>
 </head>
@@ -90,10 +94,26 @@
             <section>
                <h2>Reinvenção do Melhor Restaurante, 2018</h2>
                 <center><iframe width="350" height="190" src="https://www.youtube.com/embed/v5XtgodI5Ww" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
-               <h2>As receitas do Chefe</h2>
+                <center><details>
+                    <summary>Saber mais</summary>
+                    <p>O chef-proprietário Rene Redzepi fechou o seu restaurante premiado para repensar tudo. Este vídeo entra nos bastidores do novo Noma nos seus dias finais antes da reabertura.</p>
+                </details></center>
+
+                <br>
+                <h2>As receitas do Chefe</h2>
                 <center><iframe width="350" height="190" src="https://www.youtube.com/embed/GiYmVOZdd6E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
-            <br>
+                <center><details>
+                    <summary>Saber mais</summary>
+                    <p>Redzepi ensina a cozinhar um dos pratos exclusivos do Noma, perfeito para se comer à beira-mar no verão.</p>
+                </details></center>
+                
+                <br><br>
                 <center><iframe width="350" height="190" src="https://www.youtube.com/embed/LhKQ4GtxYUs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
+                <center><details>
+                    <summary>Saber mais</summary>
+                    <p>René Redzepi ensina a cozinhar o prato "ostra cozida no vapor", um dos pratos de assinatura do Noma. A inspiração e execução do prato são explicadas pelo homem por trás do menu.</p>
+                </details></center>
+            
             </section>
 
         </div>
@@ -101,33 +121,36 @@
         <div class="col-6 col-s-9 item3">
              <main>
                  <h2>Cozinha de René Redzepi</h2>
+                 
+                 <div class="linha">
+                    <figure><img src="images/noma/prato1.jpg"  class="img" id="circular"></figure>
+                    <a href="https://media-cdn.tripadvisor.com/media/photo-s/11/50/dd/19/entree.jpg"><figcaption class="none">Prato Nova cozinha Nórdica</figcaption></a>
+                    <figure><img src="images/noma/prato2.jpg"  class="img" id="circular"></figure>
+                    <a href="https://upload.wikimedia.org/wikipedia/commons/7/7f/Flickr_-_cyclonebill_-_Marv_med_syltede_gr%C3%B8ntsager.jpg"><figcaption class="none">Prato Nova cozinha Nórdica</figcaption></a>
+                </div>
                  <p>&ensp; &ensp; &ensp;René Redzepi é conhecido pelo o seu trabalho sobre a reinvenção e refinamento de uma <u><b>Nova Cozinha Nórdica</b></u> e alimentos que caracterizam a criatividade e sabores limpos.</p>
                  <p>&ensp;A nova cozinha nórdica foi impulsionada e inspirada por ideias de um ativista alimentar. Tem sido utilizada para promover o local, natureza e sazonalidade de produtos como base para novos pratos.</p>
                  
                  <center><p><b>Prato da Nova Cozinha Nórdica da Autoria do Chefe confecionados no seu restaurante:</b></p></center>
-                 <div class="linha">
-                    <figure><img src="images/noma/prato1.jpg" height="100px" class="img" class="circular"></figure>
-                    <a href="https://media-cdn.tripadvisor.com/media/photo-s/11/50/dd/19/entree.jpg"><figcaption class="none">Prato Nova cozinha Nórdica</figcaption></a>
-                    <figure><img src="images/noma/prato2.jpg" height="100px" class="img"></figure>
-                    <a href="https://upload.wikimedia.org/wikipedia/commons/7/7f/Flickr_-_cyclonebill_-_Marv_med_syltede_gr%C3%B8ntsager.jpg"><figcaption class="none">Prato Nova cozinha Nórdica</figcaption></a>
-                </div>
-
-                 <p>&ensp;O Chefe do Noma valoriza os ingredientes locais, como ouriço-do-mar, banha de porco, batatas, toucinho, algas, vieiras, camarões, pera e prega a sustentabilidade.
-                 <p>&ensp;Os produtos frescos do restaurante e a experiência de provar um cardápio totalmente controlado pela equipa de chefes faz haver tanto sucesso.</p>
-                 <center><p><i>"O Noma não existiria sem os produtos que usa"</i>, disse um responsável. </p></center>
-
-                 <!--
-                 <center><figure><img src="images/noma/noma-montage-web.jpg" class="img"></figure></center>
-                 <a href="http://3.bp.blogspot.com/-GfFjFDQFoUE/TfflVbjSa_I/AAAAAAAAAu8/H4L8lr0twEk/s400/noma-montage-web.jpg"><figcaption class="none">Noma e alimentos</figcaption></a>-->
-
-                 <p>&ensp; Com o decorrer da pandemia os negócios de restauração viram-se obrigados a parar sem saber quando voltariam a reabrir, assim restaurante Noma teve de reinventar, transformo-se num wine bar e hamburgueria por um tempo limitado, sem reservas e através de take-away.</p>
                  
+
+                <p>&ensp;O Chefe do Noma valoriza os ingredientes locais, como ouriço-do-mar, banha de porco, batatas, toucinho, algas, vieiras, camarões, pera e prega a sustentabilidade.
+                <p>&ensp;Os produtos frescos do restaurante e a experiência de provar um cardápio totalmente controlado pela equipa de chefes faz haver tanto sucesso.</p>
+                
+                <center><figure><img src="images/noma/noma_foto8.jpg" class="img"></figure></center>
+                <a href="https://www.google.pt/url?sa=i&url=https%3A%2F%2Fwww.theworlds50best.com%2Fthe-list%2F1-10%2FNoma.html&psig=AOvVaw2zxazFAiQ3WR9fTmkJDWVR&ust=1617650485991000&source=images&cd=vfe&ved=0CAMQjB1qFwoTCLCxmemn5e8CFQAAAAAdAAAAABAN"><figcaption class="none">Prato</figcaption></a>
+
+                <center><p><i>"O Noma não existiria sem os produtos que usa"</i>, disse um responsável. </p></center>
+                 <p>&ensp; Com o decorrer da pandemia os negócios de restauração viram-se obrigados a parar sem saber quando voltariam a reabrir, assim restaurante Noma teve de reinventar, transformo-se num wine bar e hamburgueria por um tempo limitado, sem reservas e através de take-away.</p>
+                
                  <div class="linha">
-                    <figure><img src="images/noma/hamburguer.jpg" height="100px" class="img" class="circular"></figure>
+                    <figure><img src="images/noma/hamburguer.jpg"  class="img" id="circular"></figure>
                     <a href="https://media-cdn.tripadvisor.com/media/photo-s/11/50/dd/19/entree.jpg"><figcaption class="none">Prato Nova cozinha Nórdica</figcaption></a>
-                    <figure><img src="images/noma/hamburguer1.jpg" height="100px" class="img"></figure>
+                            
+                    <figure><img src="images/noma/hamburguer1.jpg"  class="img" id="circular"></figure>
                     <a href="https://upload.wikimedia.org/wikipedia/commons/7/7f/Flickr_-_cyclonebill_-_Marv_med_syltede_gr%C3%B8ntsager.jpg"><figcaption class="none">Prato Nova cozinha Nórdica</figcaption></a>
-                </div>
+                 </div>  
+                
              </main>
         </div>
         <!--Article-->

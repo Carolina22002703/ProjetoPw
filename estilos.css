@@ -424,7 +424,6 @@ div h4{
     float: left;
     width: 20%;
     padding: 20px;
-    font-size: 1vw;
     display: grid;
     grid-template-columns: repeat(5, 250px);
     grid-auto-rows: 200px;
@@ -505,6 +504,7 @@ opacity: 1;
     margin-top: 8px;
     vertical-align: middle;
   }
+
   
   /* Responsive layout - makes a two column-layout instead of four columns */
   @media screen and (max-width: 1000px) {

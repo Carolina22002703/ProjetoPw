@@ -1,6 +1,7 @@
 @import "estilos.css";
 *{
     box-sizing: border-box;
+    font-family: 'Source Sans Pro', sans-serif;
 }
 
 div h4{
@@ -58,14 +59,6 @@ div h4{
     transition: all 0.5s linear;
     position: relative;
 }
-
-.item2__logo {
-    max-width: 30px;
-    height: auto;
-    position: relative;
-    top: 0.5em;
-    left: 0.5em;
-  }
 
 .item2 a {
     display: inline;
@@ -156,7 +149,7 @@ div h4{
     width: 100%;
     margin: 1em;
     height: auto;
-    background-color: rgb(228, 172, 99);
+    background-color: rgb(196, 187, 176);
     box-shadow: 0 0 3px -1px rgba(0,0,0,0.4),
                 0 13px 13px -10px rgba(0,0,0,0.4);
     border-radius: 3px;
@@ -166,8 +159,8 @@ div h4{
 .caixa_header{
     width: 100%;
     height: auto;
-    background-color:rgb(31, 95, 138);
-    background: linear-gradient(to bottom, #7078a9 0%, orange 100%);
+    background-color:rgb(47, 56, 63);
+    background: linear-gradient(to bottom, #7078a9 0%, rgb(230, 213, 183) 100%);
     position: relative;
 }
 .caixa_texto{

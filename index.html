@@ -17,41 +17,81 @@
         }
         /*Menu Dropdown Responsivo*/
         nav ul {
-            list-style-type: none;
-            background-color: rgb(15, 92, 168);
-            margin: 0;
-            padding: 0;
-            width: 175px;
-            text-align: center;
-        }
-        nav ul > li {
-            display:block;
+            display: inline;
             position: relative;
         }
-        nav > ul > li ul {
-            display: none;
+        nav li{
+            display: inline;
+            position: relative;
+
         }
         nav a {
-            display: block;
-            padding: 5px 10px;
+            display: inline-block;
+            padding: 5px 30px;
             text-decoration: none;
-            white-space: nowrap;
             color: white;
+            background-color: rgb(31, 95, 138);
         }
-        nav a:hover {
-            background-color: #69C;
+
+        nav ul a:hover{
+            color: #000;
+            background-color:
+            #69C;
         }
+        
+        nav > ul > li ul {display: none;}
+
         nav > ul li:hover > ul {
-            display: block;
+            display:block;
             position: absolute;
-            top: 0;
-            left: 100%;
+            top: calc(1em + 5px);
+            left: 0%;
         }
+        
+        
 
     </style>
 </head>
 
 <body>
+     <!--Nav-->
+     <nav>
+        <ul>
+            <li><a href="#">Mirazur</a>
+                <ul>
+                    <li><a href="mirazur.html">Introdução</a></li>
+                    <li><a href="mirazur1.html">Pontos de Interesse</a></li>
+                    <li><a href="mirazur2.html">Cozinha</a></li> 
+                    <li><a href="index.html">Home</a></li>   
+                </ul>
+            </li>
+            <li><a href="#">El Celler De Can Roca</a>
+                <ul>
+                    <li><a href="celler.html">Introdução</a></li>
+                    <li><a href="celler1.html">Pontos de Interesse</a></li>
+                    <li><a href="celler2.html">Cozinha</a></li> 
+                    <li><a href="index.html">Home</a></li>   
+                </ul>
+            </li>
+            <li><a href="#">Noma</a>
+                <ul>
+                     <li><a href="noma.html">Introdução</a></li>
+                    <li><a href="noma1.html">Pontos de Interesse</a></li>
+                    <li><a href="noma2.html">Cozinha</a></li> 
+                    <li><a href="index.html">Home</a></li>   
+                </ul>
+            </li>
+            <li><a href="#">Detalhes do Projeto</a>
+                <ul>
+                       
+                </ul>
+            </li>
+                   
+        </ul>
+
+    </nav> 
+    
+
     <!--Header-->
     <div class="item1">
         <header>
@@ -62,43 +102,7 @@
 
     <div class="row">
     <div class="grid-container">
-        <!--Nav-->
-        <nav>
-            <ul>
-                <li><a href="#">Mirazur</a>
-                    <ul>
-                         <li><a href="mirazur.html">Introdução</a></li>
-                        <li><a href="mirazur1.html">Pontos de Interesse</a></li>
-                        <li><a href="mirazur2.html">Cozinha</a></li> 
-                        <li><a href="index.html">Home</a></li>   
-                    </ul>
-                </li>
-                <li><a href="#">El Celler De Can Roca</a>
-                    <ul>
-                         <li><a href="celler.html">Introdução</a></li>
-                        <li><a href="celler1.html">Pontos de Interesse</a></li>
-                        <li><a href="celler2.html">Cozinha</a></li> 
-                        <li><a href="index.html">Home</a></li>   
-                    </ul>
-                </li>
-                <li><a href="#">Noma</a>
-                    <ul>
-                         <li><a href="noma.html">Introdução</a></li>
-                        <li><a href="noma1.html">Pontos de Interesse</a></li>
-                        <li><a href="noma2.html">Cozinha</a></li> 
-                        <li><a href="index.html">Home</a></li>   
-                    </ul>
-                </li>
-                <li><a href="#">Detalhes do Projeto</a>
-                    <ul>
-                           
-                    </ul>
-                </li>
-                       
-            </ul>
-
-        </nav>       
-
+            
         <!--Article-->
         <article>
             

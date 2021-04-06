@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <title>Gastronomia no Mundo</title>
+    <link rel="shortcut icon" type="image/x-icon" href="imagens/mundo.png"/>
+    <link rel="stylesheet" href="estilos.css">
+
+    <style>
+        
+        h1{
+            font-size: 2vw;
+            font-family: 'Dela Gothic One', cursive;
+            color:rgb(75, 186, 201);
+        }
+        h2{
+            font-size:1.5vw;
+            font-family: 'New Tegomin', serif;
+            background-color: rgb(179, 206, 245);
+            color: rgb(58, 57, 57);
+        }
+        .item2{
+            background-color:rgb(10, 51, 90);
+        }
+        .item6{
+            background-color:rgb(10, 51, 90);
+        }
+        fieldset{
+            text-align: center;
+        }
+        
+        
+    </style>
+</head>
+
+<body>
+     <!--Nav-->
+     <div class="item2">
+        <nav>
+            <a href="informacao.html" target="_blank"> Informações </a>
+            <b><a href="formulario.html" target="_blank"> Formulário </a></b>
+            <a href="index.html" target="_blank"> Home </a>  
+        </nav> 
+    </div>
+
+    <!--Header-->
+    <div class="item1">
+        <header>
+            <h1>Formulário</h1>
+        </header>
+    </div>
+
+    <div class="row">
+    <div class="grid-container">
+            
+        <!--Article-->
+        <div class="col-6 col-s-9 item4">
+            <article>
+                 
+                
+            </article>
+        </div>
+
+        <!--Conteúdo Principal-->
+        <div class="col-6 col-s-9 item3">
+            <main>
+                <form autocomplete="off" method="POST" action="nome.apelido@gmail.com">
+
+                    <center><p><b>Ajude-nos a perceber o que melhorar!!</b></p></center>
+
+                    <fieldset>
+                        <legend>Dados Pessoais</legend>
+                        <span><div class="First_test"><label for="fname">Nome:</label></div></span>
+                        <input type="text" id="fname" name="fname" placeholder="XXXXXXXX" size="50">
+                        <span><div class="Second_test"><label for="lname">Apelido:</label></div></span>
+                        <input type="text" id="lname" name="lname" placeholder="XXXXXXX" size="50">
+                        <span><div class="Three_test"><label for="email">Email:</label></div></span>
+                        <input for="email" id="email" name="email" placeholder="nomeutilizador@gmail.com" size="50">
+                        <span><div class="Four_test"><label type="phone">Número de telemóvel:</label></div></span>
+                        <input type="tel" id="phone" placeholder="121 345 678" pattern="[0-9]{3}-[0-9]{3}-[0-9]{3}">
+                    </fieldset>
+                    <br><br>
+                    
+                    <fieldset>
+                        <legend>Questões</legend>
+                      <span><label for="clareza">Como classifica o nosso website quanto à clareza?</label></span>
+                      <input type="range" id="clareza" name="clareza" min="0" max="100">
+                      <br><br>
+        
+                      <span><label for="rigor">Como classifica o nosso website quanto ao rigor?</label></span>
+                      <input type="range" id="rigor" name="rigor" min="0" max="100">
+                      <br><br>
+        
+                      <span><label for="profundidade">Como classifica o nosso website quanto à profundidade?</label></span><br><br>
+                      <input type="checkbox" id="Avaliar" name="Avaliar" value="Pessimo">
+                      <label for="Pessimo">Péssimo</label>
+                      <input type="checkbox" id="Avaliar" name="Avaliar" value="Medio">
+                      <label for="Medio">Médio</label>
+                      <input type="checkbox" id="Avaliar" name="Avaliar" value="Bom">
+                      <label for="Bom">Bom</label>
+                      <input type="checkbox" id="Avaliar" name="Avaliar" value="Muito Bom">
+                      <label for="Muito Bom">Muito Bom</label>
+                      <br><br>
+        
+                      <span><label for="amplitude">Como classifica o nosso website quanto ao seu layout?</label></span>
+                      <input type="range" id="amplitude" name="amplitude" min="0" max="100">
+                      <br><br>
+        
+                      <span><label for="logica">Como classifica o nosso website quanto à lógica?</label></span>
+                      <input type="range" id="logica" name="logica" min="0" max="100">
+                      <br><br>
+        
+                      <span><label for="significancia">Como classifica o nosso website quanto à estrutura?</label></span>
+                      <input type="range" id="significancia" name="significancia" min="0" max="100">
+                      <br><br>
+        
+                      <span><label for="originalidade">Como classifica o nosso website quanto à originalidade?</label></span><br><br>
+                      <input type="radio" id="Pessimo" name="gender" value="Pessimo">
+                      <label for="Pessimo">Péssimo</label>
+                      <input type="radio" id="Medio" name="gender" value="Medio">
+                      <label for="Medio">Médio</label>
+                      <input type="radio" id="Bom" name="gender" value="Bom">
+                      <label for="Bom">Bom</label>
+                      <input type="radio" id="Muito Bom" name="gender" value="Muito Bom">
+                      <label for="Muito Bom">Muito Bom</label>
+                      <br><br>
+
+                      <span><label for="significancia">Como classifica o nosso website quanto às cores?</label></span>
+                      <input type="range" id="significancia" name="significancia" min="0" max="100">
+                      <br><br>
+
+                      <span><label for="significancia">Como classifica o nosso website quanto às animações?</label></span>
+                      <input type="range" id="significancia" name="significancia" min="0" max="100">
+                      <br><br>
+        
+                      <span><p>Sugestões de Melhoria:</p></span>
+                      <textarea name="message" rows="3" cols="50">Escreve aqui...</textarea>
+                      <br><br>
+                      <input type="hidden" id="lab3" name="lab3" value="100">
+
+        
+                    </fieldset>
+                    </form>
+               
+            </main>
+        </div>
+
+        <!--Aside-->
+        <aside>
+
+        </aside>
+    </div>
+    </div>
+
+   <!--Footer-->
+    <div class="item6">
+        <footer>
+            <p> Universade Lusófona de Humanidades e Tecnologias </p>
+        </footer>
+    </div>
+</body>
+</html>

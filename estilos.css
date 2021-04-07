@@ -63,7 +63,7 @@ div h4{
     grid-area : header;
     font-style: italic;
     text-align: center;
-    font-size: 40px;
+    font-size: 3vw;
     font-family: 'EB Garamond', serif;
     size: 80px;
    
@@ -71,7 +71,7 @@ div h4{
 
 .item2{
     grid-area : nav;
-    font-size: 1vw;
+    font-size: 1.5vw;
     top: 0; 
     text-align: center; 
     position: relative;

@@ -221,8 +221,8 @@ div h4{
 }
 .reserva{
     display: inline-block;
-    width: 300px;
-    margin: 1em;
+    width: 100%;
+   
     height: auto;
     background-color: #fff;
     box-shadow: 0 0 3px -1px rgba(0,0,0,0.4),

@@ -71,7 +71,7 @@ div h4{
 
 .item2{
     grid-area : nav;
-    font-size: 18pt;
+    font-size: 1vw;
     top: 0; 
     text-align: center; 
     position: relative;
@@ -222,7 +222,6 @@ div h4{
 .reserva{
     display: inline-block;
     width: 100%;
-   
     height: auto;
     background-color: #fff;
     box-shadow: 0 0 3px -1px rgba(0,0,0,0.4),

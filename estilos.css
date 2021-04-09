@@ -305,6 +305,18 @@ a:active{
     width: 100%;
     font-size: 1vw;
 }
+.columnPagina{
+    float: left;
+    width: 33.3%;
+    padding: 10px;
+    font-size: 1vw; 
+}
+.columnPInteresse{
+    float: left;
+    width: 100%;
+    padding: 10px;
+    font-size: 1vw; 
+}
 
 /* Clear floats after the columns */
 .row1:after {

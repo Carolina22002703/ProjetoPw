@@ -522,7 +522,7 @@ flex-wrap: wrap;
  padding: 0 4px;
 }
   
-/* Create four equal columns that sits next to each other */
+/* Colunas umas ao lado das outras */
 .colunaImagem {
     flex: 30%;
     max-width: 40%;
@@ -535,7 +535,7 @@ flex-wrap: wrap;
 }
 
   
-  /* Responsive layout - makes a two column-layout instead of four columns */
+  /* Layout Responsivo - varia o máximo*/
   @media screen and (max-width: 1000px) {
     .column {
       flex: 50%;
@@ -543,10 +543,74 @@ flex-wrap: wrap;
     }
   }
   
-  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  /* Layout Responsivo 2 - varia o máximo*/
   @media screen and (max-width: 600px) {
     .column {
       flex: 100%;
       max-width: 100%;
     }
   }
+
+  /*ANIMAÇÕES*/
+
+  /*Para todas as imagens*/
+
+    img {
+    animation-duration: 3s;
+    animation-name: slidein;
+    }
+  
+  @keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 100%;
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
+
+  /*Para todos os icones*/
+
+  .fa {
+    border-radius: 10px;
+    width: 50px;
+    height: 50px;
+    animation-name: rotate;
+    animation-duration: 0.7s;
+  }
+  
+  @keyframes rotate {
+    0% {
+      transform: rotate(0);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+
+
+  /*Para todos os vídeos*/
+  iframe {
+    animation-duration: 3s;
+    animation-name: slidein;
+    animation-iteration-count: 4;
+    animation-direction: alternate;
+  }
+
+  @keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 100%;
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
+  
+  
+ 

@@ -185,7 +185,7 @@ a:active{
     width: 100%;
     margin: 1em;
     height: auto;
-    background-color: rgb(196, 187, 176);
+    background-color: rgb(243, 218, 187);
     box-shadow: 0 0 3px -1px rgba(0,0,0,0.4),
                 0 13px 13px -10px rgba(0,0,0,0.4);
     border-radius: 3px;
@@ -319,6 +319,24 @@ a:active{
     width: 100%;
     padding: 10px;
     font-size: 1vw; 
+}
+
+/*Itens das redes sociais - footer*/
+.redes_sociais{
+    -webkit-box-flex: 2;
+      -ms-flex: 2;
+          flex: 2;
+  opacity: 1;
+  text-align: center;
+}
+
+.instagram,
+.facebook {
+  display: inline-block;
+  margin: 0 5px;
+  color: #cfd2e2;
+  transition: all 0.2s linear;
+  font-size: 1.5em;
 }
 
 /* Clear floats after the columns */

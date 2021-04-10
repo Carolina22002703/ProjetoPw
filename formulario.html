@@ -6,18 +6,31 @@
     <link rel="shortcut icon" type="image/x-icon" href="imagens/mundo.png"/>
     <link rel="stylesheet" href="estilos.css">
 
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
     <style>
-        
+        .parallax {
+            background-image: url(images/formulario.png);
+            min-height: 500px; 
+            background-attachment: fixed;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
         h1{
             font-size: 2vw;
             font-family: 'Dela Gothic One', cursive;
-            color:rgb(75, 186, 201);
+            color:rgb(172, 54, 0);
         }
         h2{
             font-size:1.5vw;
             font-family: 'New Tegomin', serif;
             background-color: rgb(179, 206, 245);
             color: rgb(58, 57, 57);
+        }
+        p{
+            text-align: center;
         }
         .item2{
             background-color:rgb(10, 51, 90);
@@ -34,12 +47,15 @@
 </head>
 
 <body>
+    <div class="parallax">
+
      <!--Nav-->
      <div class="item2">
         <nav>
-            <a href="informacao.html" target="_blank"> Informações </a>
-            <b><a href="formulario.html" target="_blank"> Formulário </a></b>
-            <a href="index.html" target="_blank"> Home </a>  
+            <a href="informacao.html" target="_blank">&#10067; Informações </a>
+            <b><a href="formulario.html" target="_blank">&#128203; Formulário </a></b>
+            <a href="mapa.html" target="_blank">🗺️ Mapa do Website</a>
+            <a href="index.html" target="_blank">&#128281; Home </a>  
         </nav> 
     </div>
 
@@ -53,20 +69,14 @@
     <div class="row">
     <div class="grid-container">
             
-        <!--Article-->
-        <div class="col-6 col-s-9 item4">
-            <article>
-                 
-                
-            </article>
-        </div>
 
         <!--Conteúdo Principal-->
         <div class="col-6 col-s-9 item3">
             <main>
                 <form autocomplete="off" method="POST" action="nome.apelido@gmail.com">
 
-                    <center><p><b>Ajude-nos a perceber o que melhorar!!</b></p></center>
+                    <p><b>Ajude-nos a perceber o que melhorar!! &#9997;</b></p>
+                    
 
                     <fieldset>
                         <legend>Dados Pessoais</legend>
@@ -138,20 +148,17 @@
                       <br><br>
                       <input type="hidden" id="lab3" name="lab3" value="100">
 
-        
+                      <button type="button" onclick="alert('Submetido')">Submeter</button>
+
                     </fieldset>
                     </form>
                
             </main>
         </div>
-
-        <!--Aside-->
-        <aside>
-
-        </aside>
     </div>
     </div>
 
+    </div>
    <!--Footer-->
     <div class="item6">
         <footer>

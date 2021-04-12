@@ -29,12 +29,16 @@
         /*Menu Dropdown Responsivo*/
         nav ul {
             display: inline;
-            position: relative;
+        }
+        nav ul a{
+            display: inline-block;
+            padding: 3px 1px 3px 2px;
+            text-decoration: none;
+            color: #FFF;
         }
         nav li{
-            display: inline;
+            display: inline-block;
             position: relative;
-
         }
         nav a {
             display: inline-block;
@@ -44,10 +48,9 @@
             text-decoration: none;
             color: white;
             background-color: rgb(31, 95, 138);
-            border-right: 1px solid #FFF;
         }
 
-        nav ul a:hover{
+        nav ul a :hover{
             color: #000;
             background-color:#69C;
         }
@@ -57,7 +60,7 @@
         nav > ul li:hover > ul {
             display:block;
             position: absolute;
-            top: calc(1em + 5px);
+            top: 100%;
             left: 0%;
         }
        
@@ -72,7 +75,7 @@
      <!--Nav-->
      <nav style="text-align: center;">
         <ul>
-            <li><a href="#"> &#10024;; Mirazur</a>
+            <li><a href="#"> &#10024; Mirazur</a>
                 <ul>
                     <li><a href="mirazur.html">Introdução</a></li>
                     <li><a href="mirazur1.html">Pontos de Interesse</a></li>

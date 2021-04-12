@@ -42,13 +42,16 @@
         .item6{
             background-color:rgb(10, 51, 90);
         }
+        
         /*Formatação de Tabelas*/
         td,th,table{
             border:1.5px solid black; 
             table-layout: fixed;
             text-align: center; 
             border-collapse: collapse;
-            margin: auto;  
+            margin: auto;
+            max-width: 1400px;  
+            max-height: 100px;
         }
         tr:nth-child(even){
             background-color:rgb(252, 252, 250);
@@ -88,7 +91,7 @@
 
     <div class="itemAuxiliar">
         <div class="row1">
-            <div class="columnPagina" style="background-color: rgba(226, 153, 43, 0.87);">
+            <div class="columnInformacao" style="background-color: rgba(226, 153, 43, 0.87);">
                 <br>
                 <center><i class="fa fa-video-camera" style="font-size:4vw;color: rgb(238, 238, 238);"></i></center>
                 <br>
@@ -96,7 +99,7 @@
                 <center><a href="#section">Clique aqui</a></center>
                 </div>
         
-                <div class="columnPagina" style="background-color: rgb(170, 66, 40);">
+                <div class="columnInformacao" style="background-color: rgb(170, 66, 40);">
                 <br>
                 <center><i class="fa fa-sticky-note" style="font-size:4vw;color:rgb(238, 238, 238)"></i></center>
                 <br>
@@ -104,7 +107,7 @@
                 <center><a href="#tabelaInventario">Clique aqui</a></center>
                 </div>
         
-                <div class="columnPagina" style="background-color: rgba(32, 141, 204, 0.884);">
+                <div class="columnInformacao" style="background-color: rgba(32, 141, 204, 0.884);">
                 <br>
                 <center><i class="fa fa-edit" style="font-size:4vw;color:rgb(238, 238, 238)"></i></center>
                 <br>
@@ -112,7 +115,7 @@
                 <center><a href="#main">Clique aqui</a></center>
                 </div>
         
-                <div class="columnPagina" style="background-color: rgba(18, 86, 150, 0.87);">
+                <div class="columnInformacao" style="background-color: rgba(184, 64, 28, 0.87);">
                 <br>
                 <center><i style="font-size:4vw;color: rgb(238, 238, 238);" class="fa fa-sticky-note"></i></center>
                 <br>
@@ -120,7 +123,7 @@
                 <center><a href="#tabelaDetalhes">Clique aqui</a></center>
                 </div>
 
-                <div class="columnPagina" style="background-color: rgba(18, 86, 150, 0.87);">
+                <div class="columnInformacao" style="background-color: rgba(196, 175, 107, 0.87);">
                 <br>
                 <center><i style="font-size:4vw;color: rgb(238, 238, 238);" class="fa">&#xf002;</i></center>
                 <br>
@@ -136,8 +139,15 @@
         <!--Section-->
         <div class="col-3 col-s-6 item7">
             <section id="section">
-
+                
             </section>
+        </div>
+
+        <!--Conteúdo Principal-->
+        <div class="col-6 col-s-9 item3">
+            <main>
+                <h2>Layouts</h2>
+            </main>
         </div>
 
         <!--Article-->
@@ -157,10 +167,10 @@
                      </tr>
                      <tr>
                          <td>index.html</td>
+                         <td>1</td>
+                         <td>0?</td>
                          <td>0</td>
                          <td>0</td>
-                         <td>0</td>
-                         <td>?</td>
                      </tr>
                      <tr>
                          <td>mirazur.html</td>
@@ -241,10 +251,10 @@
                      </tr>
                      <tr>
                         <td>mapa.html</td>
-                        <td>?</td>
-                        <td>?</td>
-                        <td>?</td>
-                        <td>?</td>
+                        <td>1</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
                     </tr>
                      <tr>
                          <th>Total</th>
@@ -279,23 +289,23 @@
                      </tr>
                      <tr>
                          <td rowspan="6">Seletores</td>
-                         <td>Universal</td><td>?</td>
-                         <tr><td>Id</td><td>?</td></tr>
-                         <tr><td>Classe</td><td>?</td></tr>
-                         <tr><td>Atributo</td><td>?</td></tr>
-                         <tr><td>Pseudo-classe</td><td>?</td></tr>
-                         <tr><td>Pseudo-elemento</td><td>?</td></tr>
+                         <td>Universal</td><td><img src="images/info/universal.png" class="img"></td>
+                         <tr><td>Id</td><td><img src="images/info/id.png" class="img"></td></tr>
+                         <tr><td>Classe</td><td><img src="images/info/classe.png" class="img"></td></tr>
+                         <tr><td>Atributo</td><td><img src="images/info/atributo.png" class="img"></td></tr>
+                         <tr><td>Pseudo-classe</td><td><img src="images/info/pseudo-classe.png" class="img"></td></tr>
+                         <tr><td>Pseudo-elemento</td><td><img src="images/info/pseudo-elementos.png" class="img"></td></tr>
                      </tr>
                      <tr>
                          <td rowspan="8">Etiquetas</td>
-                         <td>Main</td><td>?</td>
-                         <tr><td>Article</td><td>?</td></tr>
-                         <tr><td>Nav</td><td>?</td></tr>
-                         <tr><td>Aside</td><td>?</td></tr>
-                         <tr><td>Header</td><td>?</td></tr>
-                         <tr><td>Footer</td><td>?</td></tr>
-                         <tr><td>Figure</td><td>?</td></tr>
-                         <tr><td>Section</td><td>?</td></tr>
+                         <td>Main</td><td><img src="images/info/main.png" class="img"></td>
+                         <tr><td>Article</td><td><img src="images/info/article.png" class="img"></td></tr>
+                         <tr><td>Nav</td><td><img src="images/info/nav.png" class="img"></td></tr>
+                         <tr><td>Aside</td><td><img src="images/info/aside.png" class="img"></td></tr>
+                         <tr><td>Header</td><td><img src="images/info/header.png" class="img"></td></tr>
+                         <tr><td>Footer</td><td><img src="images/info/footer.png" class="img"></td></tr>
+                         <tr><td>Figure</td><td><img src="images/info/figure.png" class="img"></td></tr>
+                         <tr><td>Section</td><td><img src="images/info/section.png" class="img"></td></tr>
                      </tr>
                      <tr>
                          <td rowspan="15">Propriedades CSS</td>
@@ -316,9 +326,11 @@
                          <tr><td>Propriedades para Apresentação de Texto</td><td>?</td></tr>
                      </tr>
                      <tr>
-                         <td>Animações</td>
-                         <td>Foram feitas animações usando keyframes que permitem mudar um elemento gradualmente de um estilo para o outro. </td>
-                         <td>?</td>
+                         <td rowspan="4">Animações</td>
+                         <td>Imagens</td><td>?</td>
+                         <tr><td>Vídeos</td><td>?</td></tr>
+                         <tr><td>Icones</td><td>?</td></tr>
+                         <tr><td>Capa</td><td>?</td></tr>
                      </tr>
                      <tr>
                          <td>Efeitos</td>

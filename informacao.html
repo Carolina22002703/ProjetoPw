@@ -32,6 +32,10 @@
             background-color: rgb(179, 206, 245);
             color: rgb(58, 57, 57);
         }
+        h3{
+            color:rgb(26, 50, 82);
+            text-align: center;
+        }
         .item2{
             background-color:rgb(10, 51, 90);
         }
@@ -84,28 +88,63 @@
 
     <div class="itemAuxiliar">
         <div class="row1">
-          <div class="columnPagina" style="background-color: rgba(43, 129, 226, 0.87);">
-                
-          </div>
-          <div class="columnPagina" style="background-color: rgb(31, 95, 138);">
-                
-          </div>
+            <div class="columnPagina" style="background-color: rgba(226, 153, 43, 0.87);">
+                <br>
+                <center><i class="fa fa-video-camera" style="font-size:4vw;color: rgb(238, 238, 238);"></i></center>
+                <br>
+                <h3>Vídeo</h3>
+                <center><a href="#section">Clique aqui</a></center>
+                </div>
+        
+                <div class="columnPagina" style="background-color: rgb(170, 66, 40);">
+                <br>
+                <center><i class="fa fa-sticky-note" style="font-size:4vw;color:rgb(238, 238, 238)"></i></center>
+                <br>
+                <h3>Tabela Inventários</h3>
+                <center><a href="#tabelaInventario">Clique aqui</a></center>
+                </div>
+        
+                <div class="columnPagina" style="background-color: rgba(32, 141, 204, 0.884);">
+                <br>
+                <center><i class="fa fa-edit" style="font-size:4vw;color:rgb(238, 238, 238)"></i></center>
+                <br>
+                <h3>Detalhes do Webiste</h3>
+                <center><a href="#main">Clique aqui</a></center>
+                </div>
+        
+                <div class="columnPagina" style="background-color: rgba(18, 86, 150, 0.87);">
+                <br>
+                <center><i style="font-size:4vw;color: rgb(238, 238, 238);" class="fa fa-sticky-note"></i></center>
+                <br>
+                <h3>Tabela Detalhes</h3>
+                <center><a href="#tabelaDetalhes">Clique aqui</a></center>
+                </div>
 
-          <div class="columnPagina" style="background-color:rgba(32, 141, 204, 0.884);">
-                
-          </div>
+                <div class="columnPagina" style="background-color: rgba(18, 86, 150, 0.87);">
+                <br>
+                <center><i style="font-size:4vw;color: rgb(238, 238, 238);" class="fa">&#xf002;</i></center>
+                <br>
+                <h3>Descobra as Páginas</h3>
+                <center><a href="#aside">Clique aqui</a></center>
+                </div>
         </div>
       </div>
 
     <div class="row">
     <div class="grid-container">
 
-            
+        <!--Section-->
+        <div class="col-3 col-s-6 item7">
+            <section id="section">
+
+            </section>
+        </div>
+
         <!--Article-->
         <div class="col-6 col-s-9 item4">
             <article>
                  <!--Tabela de Inventário-->
-                 <h2>Tabela de Inventário</h2>
+                 <h2 id="tabelaInventario">Tabela de Inventário</h2>
                  <br>
  
                  <center><table cellpadding="10%" cellspacing="5" bgcolor ="white" border="1">
@@ -219,7 +258,7 @@
                  <br>
  
                  <!--Técnicas Usadas-->
-                 <h2>Tabela de Técnicas Usadas</h2>
+                 <h2 id="tabelaDetalhes">Tabela de Técnicas Usadas</h2>
                  <br>
  
                  <center><table cellpadding="10%" cellspacing="5" bgcolor ="white" border="1">
@@ -294,7 +333,7 @@
 
         <!--Conteúdo Principal-->
         <div class="col-6 col-s-9 item3">
-            <main>
+            <main id="main">
                 <!--Vídeo De Apresentação-->
                
             </main>
@@ -302,7 +341,7 @@
 
         <!--Aside-->
         <div class="col-9 col-s-12 item5">
-            <aside>
+            <aside id="aside">
                 <center><svg width="273" height="241" class="img">
                     <image href="images/wordclound.png" ></image>
                     <a href="mirazur.html"><polygon opacity="0.1" points="92,33 92,48 157,48 157,33" style="fill:rgb(12, 51, 90)"/></a>

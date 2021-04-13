@@ -9,7 +9,7 @@
     <title>Gastronomia no mundo</title>
     
     <link rel="shortcut icon" type="image/x-icon" href="imagens/mundo.png"/>
-    <link rel="stylesheet" href="estilos.css">
+    <link rel="stylesheet" href="estilos1.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     
     <style>
@@ -51,16 +51,16 @@
             flex-direction: row;
             justify-content:space-between;
         }
-        .item1{
+        .header{
             color :rgb(31, 95, 138);
         }
-        .item2{
+        .nav{
             background-color: rgb(31, 95, 138); 
         }
-        .item2 a{
+        .nav a{
             background-color: rgb(31, 95, 138);
         }
-        .item6{
+        .footer{
             background-color: rgb(31, 95, 138);
         }
         #circular{
@@ -73,27 +73,21 @@
 
     </style>
 </head>
-
 <body>
 
     <div class="parallax"></div>
 
     <!--Nav-->
-    <div class="item2">
-        <nav>
-            <!--<div class="image"><img src="images/mirazur_logo.jpg"></div>-->
-                <a href="mirazur.html"> Apresentação </a>
-                <a href="mirazur1.html"> Pontos de Interesse </a>
-                <b><a href="mirazur2.html"> Cozinha </a></b>
-                <a href="index.html"> Home </a>    
-        </nav>
+    <div class="nav">
+        <a href="mirazurIntroducao.html"> Apresentação </a>
+        <a href="mirazurPinteresse.html"> Pontos de Interesse </a>
+        <b><a href="mirazurCozinha.html"> Cozinha </a></b>
+        <a href="index.html"> Home </a>    
     </div>
 
      <!--Header-->
-    <div class="item1">
-        <header>
-            <h1>Mirazur</h1>
-        </header>
+     <div class="header">
+        <h1>Mirazur</h1>
     </div> 
 
     <!--Item Auxiliar-->
@@ -124,11 +118,11 @@
         </div>
       </div>
 
-    <!--Section-->
-    <div class="row">
     <div class="grid-container">
-        <div class="col-3 col-s-6 item7">
-            <section id="section">
+
+        <!--Section-->
+        <div class="section">
+            <div id="section">
                 <h5> Melhor Restaurante do Mundo, 2019</h5>
                 <div class="container_video">
                     <center><iframe class="responsive-iframe"  src="https://www.youtube.com/embed/HhuwAx4BTyQ" ></iframe></center>  
@@ -147,12 +141,11 @@
                         <summary>Saber mais</summary>
                         <p>Chef do Mirazur em Menton, o melhor restaurante do mundo segundo o júri 50 Best, e premiado com 3 estrelas Michelin. Mauro Colagreco faz a sua receita simples de salada de primavera, exclusivamente para a Vogue Paris.</p>
                 </details></center>
-            </section>
+            </div>
         </div>
 
-          <!--Conteúdo Principal-->
-          <div class="col-6 col-s-9 item3">
-            <main>
+        <!--Conteúdo Principal // Main-->
+        <div class="main">
                 <br>
                 <p><h2> Chefe Mauro Colagreco</h2></p>
                 <p> &ensp; O Chefe Mauro Colagreco continua a transformar a sua gastronomia inspirando-se na observação da Natureza e no trabalho desenvolvido dentro dos seus jardins.</p>
@@ -166,78 +159,72 @@
                    <figure><img src="images/mirazur/mirazur.chefe2.jpg" height="100px" class="img" id="circular"></figure>
                    <a href="https://www.identitagolose.it/ermes/newsletter/?id=13"><figcaption class="none">Preparação do Chefe</figcaption></a>
                </div>
-            </main>
         </div>
-        
-    <!--Article-->
-    <div class="col-6 col-s-9 item4">
-        <br>
-        <br>
-        <article id="article">
-            <div class="caixa_flex"> 
-            <!--Primeira Caixa-->
-            <div class="caixa">
-                <div class="caixa_header">
-                  <img src="images/mirazur/mirazur.prato1.jfif" class="img">
-                </div>
-                <div class="caixa_middle">
-                   <h2 class="caixa_middle_name"> Jardim </h2>
-                </div>  
-                <p class="caixa_texto"> Ingredientes da nossa horta e do mercado </p>
-            </div>
-            <!--Segunda Caixa-->
-            <div class="caixa">
-                <div class="caixa_header">
-                  <img src="images/mirazur/mirazur.prato2.jfif" class="img">
-                </div>
-                <div class="caixa_middle">
-                   <h2 class="caixa_middle_name"> Montanha </h2>
-                </div>  
-                <p class="caixa_texto"> Plantas, flores, frutas e cogumelos selvagens colhidos da Floresta.</p>
-            </div>
-            <!--Terceira Caixa-->
-            <div class="caixa">
-                <div class="caixa_header">
-                  <img src="images/mirazur/mirazur.prato3.jpg" class="img">
-                </div>
-                <div class="caixa_middle">
-                   <h2 class="caixa_middle_name"> Mar </h2>
-                </div>  
-                <p class="caixa_texto"> Peixes, mariscos e crustáceos dos pescadores mediterrâneos. </p>
-            </div>
-            </div>
-        </article>
-    </div>
 
-    <!--Aside-->
-    <div class="col-9 col-s-12 item5">
-            <aside id="aside">
-               <figure><img src="images/mirazur/mirazur.chefe1.jpg" class="img"></figure>
-               <a href="https://www.identitagolose.it/ermes/newsletter/?id=13"><figcaption class="none">Fotografia do Chefe</figcaption></a>
-               <center><a href="https://www.instagram.com/maurocolagreco/"> 👨🏽‍🍳 Descubra mais </a></center>
+        <!--Aside-->
+        <div class="aside">
+            <div id="aside">
+            <figure><img src="images/mirazur/mirazur.chefe1.jpg" class="img"></figure>
+            <a href="https://www.identitagolose.it/ermes/newsletter/?id=13"><figcaption class="none">Fotografia do Chefe</figcaption></a>
+            <center><a href="https://www.instagram.com/maurocolagreco/"> 👨🏽‍🍳 Descubra mais </a></center>
 
                 <p id="descricao" style="background-color: rgb(70, 154, 223);"> <b>&#128198; Nascimento:</b> 5 de Outubro de 1976, La Plata, Argentina</p>
                 <p id="descricao" style="background-color: rgb(70, 154, 223);"> <b>&#8987; Idade:</b> 44 anos</p>
                 <p id="descricao" style="background-color: rgb(70, 154, 223);"> <b>&#127891; Formação:</b> Hotel School, Gato Dumas - College of Gastronomy </p>
                 <p id="descricao" style="background-color: rgb(70, 154, 223);"> <b>&#128215; Livros:</b> <a href="https://kitchenartsandletters.com/product/mirazur-2/">Mirazur (English)</a>, <a href="https://www.amazon.com.br/Cuisiner-minceur-pas-%C3%A0/dp/250107534X">Cuisiner minceur pas à pas</a> </p>
-            </aside>  
+            </div>
+        </div>
+
+        <!--Article-->
+        <div class="article">
+            <div id="article">
+                <div class="caixa_flex"> 
+                    <!--Primeira Caixa-->
+                    <div class="caixa">
+                        <div class="caixa_header">
+                        <img src="images/mirazur/mirazur.prato1.jfif" class="img">
+                        </div>
+                        <div class="caixa_middle">
+                        <h2 class="caixa_middle_name"> Jardim </h2>
+                        </div>  
+                        <p class="caixa_texto"> Ingredientes da nossa horta e do mercado </p>
+                    </div>
+                    <!--Segunda Caixa-->
+                    <div class="caixa">
+                        <div class="caixa_header">
+                        <img src="images/mirazur/mirazur.prato2.jfif" class="img">
+                        </div>
+                        <div class="caixa_middle">
+                        <h2 class="caixa_middle_name"> Montanha </h2>
+                        </div>  
+                        <p class="caixa_texto"> Plantas, flores, frutas e cogumelos selvagens colhidos da Floresta.</p>
+                    </div>
+                    <!--Terceira Caixa-->
+                    <div class="caixa">
+                        <div class="caixa_header">
+                        <img src="images/mirazur/mirazur.prato3.jpg" class="img">
+                        </div>
+                        <div class="caixa_middle">
+                        <h2 class="caixa_middle_name"> Mar </h2>
+                        </div>  
+                        <p class="caixa_texto"> Peixes, mariscos e crustáceos dos pescadores mediterrâneos. </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
     </div>
 
-</div>
-</div>
+    <div class="parallax"></div>
 
-<div class="parallax"></div>
-
-<!--Footer-->
-<div class="item6">
-    <footer>
+    <!--Footer-->
+    <div class="footer">
         <p> Universade Lusófona de Humanidades e Tecnologias </p>
         <div class="redes_sociais">
             <a href="https://www.instagram.com/restaurantmirazur/?hl=pt" target="_blank"><span class="instagram"></span>Instagram</a>
             <a href="https://www.facebook.com/mirazur.fr" target="_blank"><span class="facebook"></span>Facebook</a>
         </div>
-    </footer>
-</div>
+    </div>
 
 </body>
 </html>

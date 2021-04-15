@@ -359,21 +359,21 @@ a:active{
   font-size: 1.5em;
 }
 
-/* Clear floats after the columns */
+/* Colunas */
 .row1:after {
     content: "";
     display: table;
     clear: both;
 }
   
-/* On screens that are 992px wide or less, go from four columns to two columns */
+/* Colunas para ecrãs com o mínimo de 601px */
 @media screen and (min-width: 601px) {
   .column {
         width: 25%;
     }
 }
   
-/* On screens that are 600px wide or less, make the columns stack on top of each other instead of next to each other */
+/* Colunas para ecrãs com máximo de 600px */
 @media screen and (max-width: 600px) {
     .column {
         width: 50%;
